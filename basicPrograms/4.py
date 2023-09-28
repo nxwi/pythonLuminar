@@ -3,4 +3,3 @@
 x = int(input("Enter the number:"))
 
 print("The square of", x, "is", x*x)
-

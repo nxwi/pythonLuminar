@@ -1,8 +1,7 @@
-# Ask user to enter age, sex (M or F ), marital status ( Y or N ) and then using following rules print their place of service.
-# If employee is female, then she will work only in urban areas.
-# If employee is a male and age is in between 20 and 40 then he may work in anywhere
-# If employee is male and age is in between 40 t0 60 then he will work in urban areas only.
-# And any other input of age should print "ERROR".
+# Ask user to enter age, sex (M or F ), marital status ( Y or N ) and then using following rules print their place of
+# service. If employee is female, then she will work only in urban areas. If employee is a male and age is in between
+# 20 and 40 then he may work in anywhere If employee is male and age is in between 40 t0 60 then he will work in
+# urban areas only. And any other input of age should print "ERROR".
 
 x = int(input("Enter the your age:"))
 y = input("Enter your sex (M or F ):")

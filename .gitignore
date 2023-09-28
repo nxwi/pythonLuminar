@@ -1,0 +1,6 @@
+
+*.xml
+.DS_Store
+*.iml
+main.py
+.idea

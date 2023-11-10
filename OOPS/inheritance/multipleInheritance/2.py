@@ -12,10 +12,10 @@ class Doctor:
 
 class Patient(Hospital, Doctor):
     def __init__(self, h_name, loc, d_name, specialization, p_name, token):
-        Hospital.__init__(self, h_name, loc)
-        Doctor.__init__(self, d_name, specialization)
         self.p_name = p_name
         self.token = token
+        Hospital.__init__(self, h_name, loc)
+        Doctor.__init__(self, d_name, specialization)
 
     def display(self):
         print()
@@ -28,10 +28,10 @@ class Patient(Hospital, Doctor):
 
 
 ptn1 = Patient("ABC Hospital", "California, USA",
-              "Dr. John Smith", "Cardiology",
-              "Michael Jones", "123")
+               "Dr. John Smith", "Cardiology",
+               "Michael Jones", "123")
 ptn1.display()
 ptn1 = Patient("XYZ Hospital", "New York, USA",
-              "Dr. Jane Doe", "Surgery",
-              "Mary Brown", "456")
+               "Dr. Jane Doe", "Surgery",
+               "Mary Brown", "456")
 ptn1.display()

@@ -3,7 +3,7 @@ import os
 print(os.getcwd())
 
 # Create a directory.
-os.mkdir(r'/Users/naswih/PycharmProjects/pythonProject/modules/builtIn/newDir')
+os.mkdir(r'/main/modules/builtIn/newDir')
 
 # Create user input directory.
 # path = input("Enter the directory name:")
@@ -11,13 +11,13 @@ os.mkdir(r'/Users/naswih/PycharmProjects/pythonProject/modules/builtIn/newDir')
 # print('done')
 
 # Return a list containing the names of the files in the directory.
-print(os.listdir('/Users/naswih/PycharmProjects/pythonProject/modules/builtIn'))
+print(os.listdir('/main/modules/builtIn'))
 
 # Remove a directory.
-os.rmdir('/Users/naswih/PycharmProjects/pythonProject/modules/builtIn/newDir')
+os.rmdir('/main/modules/builtIn/newDir')
 
 # Remove a file.
-os.remove('/Users/naswih/PycharmProjects/pythonProject/modules/builtIn/temp.py')
+os.remove('/main/modules/builtIn/temp.py')
 
 import shutil
 

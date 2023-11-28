@@ -1,0 +1,1 @@
+# Write a program that calculates the power of a number (a^b).

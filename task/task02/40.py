@@ -3,6 +3,6 @@
 email = input("Enter an email address: ")
 
 if email.endswith("@gmail.com"):
-  print(f"{email}: Valid Gmail address.")
+    print(f"{email}: Valid Gmail address.")
 else:
-  print(f"{email}: Invalid Gmail address.")
+    print(f"{email}: Invalid Gmail address.")

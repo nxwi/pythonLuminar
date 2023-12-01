@@ -1,6 +1,6 @@
 import pymysql
 
-mydb = pymysql.connect(host="localhost", user="root", password="", database="luminar")
+mydb = pymysql.connect(host="localhost", user="root", password="")
 
 myCursor = mydb.cursor()
 # table

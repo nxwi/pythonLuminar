@@ -1,0 +1,166 @@
+1. Concatenate two strings:
+→ Use the + operator
+
+2. Find the length of a string:
+→ Use the len() function
+
+3. Access individual characters:
+→ Use square brackets with the index of the desired character
+
+4. Convert to lowercase or uppercase:
+→ Use the lower() and upper() methods
+
+5. Check for substring presence
+→ Use the in operator:
+
+6. Replace substring:
+→ Use the replace() method
+
+7. Remove leading and trailing whitespaces
+→ Use the strip() method:
+
+8. Create an empty list:
+→ Use square brackets [] or the list() function
+
+9. Add elements to a list:
+→ Use the append() or extend() method
+
+10. Access elements by index:
+→ Use square brackets with the index of the desired element
+
+
+Technical Questions
+===================
+
+1. What is variable in programming?
+→   A variable is a named storage location that holds a value in a computer program.
+    It allows you to store and access data throughout your code.
+
+2. Explain the difference b/w a compiler and an interpreter?
+→   Compiler: Translates the entire program source code into machine code before execution.
+    Faster execution, but slower development cycle.
+→   Interpreter: Executes the program line by line. Slower execution, but faster development cycle.
+
+3.what is the purpose of looping in the programming?
+→   Looping allows you to repeatedly execute a block of code until a specific condition is met.
+    It's useful for iterating over data or performing tasks multiple times.
+
+4.define "algorithm" in the context of programming
+→   An algorithm is a step-by-step procedure for solving a problem or accomplishing a task.
+    It's the foundation of any program and describes the logic behind it.
+
+5.How do you comment code in various programming languages
+→   Python: # or """ """ for multi-line comments
+→   C++: // or /* */ for multi-line comments
+→   Java: // or /* */ for multi-line comments
+
+6.what is the difference between "if" and "else if"in conditional statements?
+→   if: Executes a block of code if a specific condition is true.
+→   else if: Checks another condition if the previous "if" condition is false. Multiple "else if" statements can be chained.
+
+7.Explain the concept of data types in programming?
+→   Data types specify the type of data a variable can hold. Examples include integers, floats, strings, booleans, etc.
+
+8.How do you declare and initialize an array in your preferred  python programming language?
+→   # Define an empty array
+    empty_array = []
+
+→   # Initialize an array with values
+    fruits = ["apple", "banana", "orange"]
+
+9.what is the purpose of a function in programming?
+→   Functions are reusable blocks of code that perform a specific task.
+    They help to modularize your code and improve its organization.
+
+10.How do you pass arguments to a function,and how does it return a value?
+→   Arguments are data passed to a function for processing. A function can return a value after completing its task.
+
+11.Explain the concept of recursion in programming?
+→   Recursion is a function calling itself. It can be used to solve problems that involve repeating a specific pattern.
+
+12.what is a "syntax error" in programming, and how do you fix it?
+→   Syntax errors are errors in the code's grammar or structure that prevent it from compiling or running.
+    Fix them by analyzing the error message and correcting the code accordingly.
+
+13.what are 'for' and 'while' loops, and when would you use each?
+→   for: Used when you know the number of iterations beforehand.
+→   while: Used when you don't know the number of iterations beforehand.
+
+14.Describe the concept of 'scope ' in programming?
+→   Scope defines the accessibility of variables and functions within a program.
+    It can be global (accessible everywhere) or local (accessible only within a specific block of code).
+
+15.What is the difference between 'local' and 'global' variables?
+→   Local: declared inside a function and accessible only within that function.
+→   Global: declared outside functions and accessible from anywhere in the program.
+
+16.what is an 'API', and how is it used in software development?
+→   An API is a set of rules and specifications that allow different software components to communicate with each other.
+
+17.Explain the concept of 'object-oriented programming'?
+→   OOP is a programming paradigm that organizes code around objects, which encapsulate data and functionality.
+
+18.what are 'inheritance' and 'polymorphism' in OOP?
+→   Inheritance: Allows new classes to inherit properties and methods from existing classes.
+→   Polymorphism: Allows objects of different classes to respond differently to the same message.
+
+19.Define 'debugging' and describe some common debugging techniques?
+→   Debugging is the process of finding and fixing errors in your code. Common techniques include using a debugger,
+    printing statements, and logging errors.
+
+20.How do you handle exceptions in your preferred programming language?
+→   Exceptions are errors that occur during program execution. You can handle them using try-catch blocks to prevent
+    the program from crashing.
+
+21.Explain the difference between 'dynamic' and 'static' typing?
+→   Dynamic: Data types are determined at runtime.
+→   Static: Data types are declared explicitly and cannot be changed.
+
+22.What is a 'pointer' in C/C++ programming, and how is it used?
+→   Pointers are variables that store the memory address of another variable.
+    They provide direct access to data and are used for memory management.
+
+23.what is purpose of a 'switch' statement in programming?
+→   Switch statements are alternative selection statements that can execute different code blocks based on a given value.
+
+24.Describe the concept of 'bitwise operators'?
+→   Bitwise operators operate on individual bits of data and are useful for low-level programming tasks.
+
+25.what is the purpose of a 'try-catch' block in error handling?
+→   A try-catch block is a programming construct used to handle errors (exceptions) gracefully.
+
+26.what is 'recursion' in programming, and provide an example?
+→   Recursion is a programming technique where a function calls itself. This allows us to solve problems by breaking
+    them down into smaller sub-problems that are similar to the original problem.
+→   def factorial(n):
+      if n == 0:
+        return 1
+      else:
+        return n * factorial(n-1)
+    result = factorial(5)
+    print(result) # Output: 120
+
+27.how do you work with strings in your preferred programming language?
+→   In Python, you can access the first character of a string like this:
+    string = "Hello"
+    first_char = string[0]
+    print(first_char) # Output: H
+
+→   You can also use methods like split and replace to manipulate strings:
+    string = "This is a string"
+    words = string.split(" ")
+    print(words) # Output: ['This', 'is', 'a', 'string']
+    new_string = string.replace(" ", "-")
+    print(new_string) # Output: This-is-a-string
+
+28.Describe the concept of 'time complexity' in algorithm analysis?
+→   Time complexity is a measure of how the execution time of an algorithm grows as the input size increases.
+    It is usually expressed in Big O notation, which represents the upper bound of the algorithm's time complexity.
+
+29.what is 'DRY'(Don't Repeat Yourself') in software development?
+→   DRY is a principle of software development aimed at reducing repetition of information which is likely to change,
+    replacing it with abstractions that are less likely to change, or using data normalization which avoids redundancy
+    in the first place.
+
+30.Explain the use of version control systems like Git in programming?
+→   It keeps track of  every modification to the code in a special kind of database
